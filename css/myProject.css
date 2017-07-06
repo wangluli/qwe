@@ -1,0 +1,297 @@
+* {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background-color: #000000;
+}
+
+#wrap {
+	width: 98%;
+	margin: 0 auto;
+}
+
+#top {
+	height: 44px;
+	width: 100%;
+	background-color: #282828;
+}
+
+#top ul {
+	font: 16px/34px "";
+}
+
+#top ul.ul01 {
+	float: left;
+}
+
+#top ul.ul02 {
+	float: right;
+}
+
+#top ul li {
+	float: left;
+	color: #a4a4a4;
+	text-align: center;
+	margin: 5px;
+}
+
+#logo {
+	height: 104px;
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#nav {
+	height: 60px;
+	width: 100%;
+	background-color: #000;
+}
+
+#nav ul {
+	float: left;
+	height: 20px;
+	width: 440px;
+	margin-left: 430px;
+}
+
+#nav ul li {
+	float: left;
+	color: #fff;
+	text-align: center;
+	margin: 0 18px;
+}
+
+#nav .shiyan {
+	display: none;
+}
+
+#nav .shiyan a {
+	display: block;
+	color: #fff;
+	font: 14px/40px "";
+}
+
+#nav .shiyan a:hover {
+	color: #f99;
+}
+
+#nav .shiyan {
+	width: 100px;
+	text-align: left;
+	padding: 14px;
+	box-sizing: border-box;
+	height: 300px;
+	background: #000;
+	position: absolute;
+	z-index: 100;
+	opacity: 0.7;
+}
+
+#nav .ding {
+	position: relative;
+}
+
+#nav a .dian {
+	display: inline-block;
+	height: 58px;
+	width: 56px;
+	font: 16px "" ;
+}
+
+
+#banner {
+	height: 400px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#banner img {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+#banner p {
+	font: 16px/40px "";
+	opacity: 0.7;
+	transition: .6s;
+	position: absolute;
+	text-align: center;
+	bottom: -40px;
+	width: 100%;
+	height: 40px;
+	background-color: #000;
+	color: #fff;
+}
+
+#banner:hover p {
+	bottom: 0;
+}
+
+#part1 {
+	margin: 6px 0;
+}
+
+#part1 ul.zhizhang {
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#part1 img {
+	height: 400px;
+}
+
+#part1 #youhui #nvhui {
+	position: relative;
+	width: 100%;
+	height: 196px;
+	margin: 2px;
+	overflow: hidden
+}
+
+#part1 #youhui #nanhui {
+	position: relative;
+	width: 100%;
+	height: 196px;
+	margin: 2px;
+	margin-top: 6px;
+	overflow: hidden
+}
+
+#part2 {
+	width: 100%;
+	height: 400px;
+	margin: 6px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#part2 img {
+	height: 400px;
+}
+
+#part3 {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 6px 0;
+}
+
+#part3 img {
+	height: 400px;
+}
+
+#part4 {
+	height: 536px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 6px 0;
+}
+
+#part4 img {
+	height: 536px;
+	width: 99%;
+}
+
+#part4 #nvsi {
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+#part4 #nvpei {
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+#part5 {
+	height: 540px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 6px 0;
+}
+
+#part5 img {
+	height: 540px;
+}
+
+#footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 1215px;
+	padding-top: 120px;
+	margin: 0 0 80px 0;
+}
+
+#footer ul li {
+	color: #fff;
+	font: 12px/30px "";
+}
+
+#footer ul li img {
+	height: 30px;
+	width: 30px;
+}
+
+#yejiao {
+	height: 88px;
+	width: 100%;
+}
+
+#yejiao span {
+	color: #fff;
+	text-align: center;
+	margin: 0 0 0 430px;
+}
+
+#yejiao p {
+	color: #fff;
+	text-align: center;
+	font: 12px/20px "";
+}
+
+#back {bottom:-50px;left:-50px;}
+
+
+.tu {
+	position: relative;
+	display: block;
+}
+
+.tu p {
+	position: absolute;
+	opacity: 0;
+	bottom: -40px;
+	left: 0px;
+	line-height: 40px;
+	width: 100%;
+	background: #000000;
+	transition: 0.8s;
+	color: #fff;
+	box-sizing: border-box;
+	text-align: center;
+	font: 20px/40px "";
+}
+
+.tu:hover .heitiao {
+	bottom: 0px;
+	opacity: 0.6;
+}
+
